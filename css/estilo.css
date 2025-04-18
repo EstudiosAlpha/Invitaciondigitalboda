@@ -2,10 +2,12 @@
 @font-face {
     font-family: 'Houstiny';
     src: url('../fonts/Houstiny.ttf') format('truetype');
+    font-display: swap;
   }
   @font-face {
     font-family: 'RobotoMonoThin';
     src: url('../fonts/RobotoMono-Thin.ttf') format('truetype');
+    font-display: swap;
   }
 
 
