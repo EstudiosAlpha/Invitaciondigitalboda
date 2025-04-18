@@ -68,11 +68,12 @@
 
 .fechaEvento {
   margin: 3rem auto;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 3rem;
   font-family: 'Houstiny', sans-serif;
   height: auto;
   white-space: nowrap; /* Evitar que el texto se recorte */
+  line-height: 2; /* Ajusta el valor según sea necesario */
 }
   
   /* Program */
