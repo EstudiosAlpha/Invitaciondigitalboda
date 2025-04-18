@@ -72,6 +72,7 @@
     margin-bottom: 3rem;
     font-family: 'Houstiny', sans-serif;
     height: auto;
+    white-space: nowrap; /* Evitar que el texto se recorte */
   }
   
   /* Program */
