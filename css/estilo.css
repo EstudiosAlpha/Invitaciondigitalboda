@@ -80,9 +80,7 @@
   transform: scale(0.35); /* Escala el tamaño al 150% */
   font-family: 'RobotoMonoThin', monospace;
   font-weight: bold;
-  
 }
-
 .program-title {
   
   margin-top: 10px;
@@ -92,7 +90,6 @@
   color: #090909;
   padding: 10px;
 }
-
 .dot {
   margin-top: 130px;
   width: 40px;
@@ -102,11 +99,9 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .dot2 {
   margin-top: -2px;
 }
-
 .line {
   width: 3px;
   height: 1200px;
@@ -114,7 +109,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .we-do {
   position: absolute;
   top: 160px;
@@ -125,7 +119,6 @@
 /*    background-color: #000;*/
 border-top: 2px #000 solid;
 }
-
 .we-do-0{
   right: 50%;
 }
@@ -139,7 +132,6 @@ border-top: 2px #000 solid;
 /*    background-color: #000;*/
 border-top: 2px #000 solid;
 }
-
 .we-do-2 {
   position: absolute;
   top: 430px;
@@ -151,7 +143,6 @@ border-top: 2px #000 solid;
 /*    background-color: #000;*/
 border-top: 2px #000 solid;
 }
-
 .we-do-3 {
   position: absolute;
   top: 955px;
@@ -162,7 +153,6 @@ border-top: 2px #000 solid;
 /*    background-color: #000;*/
 border-top: 2px #000 solid;
 }
-
 .we-do-4 {
   position: absolute;
   top: 1270px;
@@ -173,7 +163,6 @@ border-top: 2px #000 solid;
 /*    background-color: #000;*/
 border-top: 2px #000 solid;
 }
-
 .we-do-title {
   font-size: 30px;
   margin-top: -84px;
@@ -181,62 +170,52 @@ border-top: 2px #000 solid;
   text-align: center;
   text-transform: uppercase;
 }
-
 .we-do-title2 {
   margin-top: -62px;
   margin-left: 30px;
   text-align: center;
 }
-
 .we-do-title3 {
   margin-top: -84px;
   margin-left: 10px;
   text-align: center;
 }
-
 .we-do-sub {
   font-size: 30px;
   margin-top: 60px;
   margin-left: 2px;
   text-align: center;
 }
-
 .we-do-sub2 {
   text-align: center;
   margin-top: 9px;
   margin-left: 34px;
 }
-
 .we-do-time {
   font-size: 55px;
   margin-top: -136px;
   margin-left: -184px;
 
 }
-
 .we-do-time2 {
   margin-top: -118px;
   margin-left: 278px;
 }
-
 .we-do-image {
   width: 100px;
   margin-top: -111px;
   margin-left: 314px;
 }
-
 .we-do-image1 {
   top: 7px;
   margin-left: 4px;
   position: absolute;
 }
-
 .we-do-image2 {
   /* top: -9px; */
   margin-left: -143px;
   position: absolute;
 }
-
 .program-vetka-img {
   width: 273px;
   margin-right: 100px;
