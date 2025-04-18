@@ -1,6 +1,5 @@
-// no-scroll.js
-document.addEventListener("DOMContentLoaded", function() {
-    // Deshabilitar el scroll horizontal
+// Deshabilitar el scroll horizontal tan pronto como el contenido esté cargado
+function disableHorizontalScroll() {
     document.documentElement.style.overflowX = "hidden";
 
     // Evitar desplazamiento horizontal con el ratón
@@ -16,4 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
             e.preventDefault();
         }
     }, { passive: false });
-});
+}
+
+// Ejecutar en DOMContentLoaded
+document.addEventListener("DOMContentLoaded", disableHorizontalScroll);
+// Ejecutar también al cargar imágenes y recursos (si es necesario)
+window.addEventListener("load", disableHorizontalScroll);
+// También ejecutarlo cuando se redimensiona la ventana
+window.addEventListener("resize", disableHorizontalScroll);
