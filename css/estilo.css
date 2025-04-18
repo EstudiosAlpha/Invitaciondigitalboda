@@ -77,8 +77,9 @@
   margin-top: -300px;
   margin-bottom: -300px;
   height: auto;
-  transform: scale(0.4); /* Escala el tamaño al 150% */
+  transform: scale(0.35); /* Escala el tamaño al 150% */
   font-family: 'RobotoMonoThin', monospace;
+  font-weight: bold;
   
 }
 
