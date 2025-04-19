@@ -153,6 +153,81 @@
 
 
 
+<!-- Como puedo llegar -->
+
+<div class="comoLlegar">
+    <div data-aos="fade-up" class="comollegartitulo">
+        <div>
+            <p>¿Cómo puedo llegar?</p>
+        </div>
+    </div>
+    <div id="imageContainer" class="image-container">
+        <div class="arrow-left" onclick="changeContent(-1)">&#9665;</div>
+        <img id="img1" class="imagen-destacada selected" src="./img/iglesia.png"
+            alt="Imagen 1">
+        <img id="img2" class="imagen-destacada" src="./img/bus.png" alt="Imagen 2">
+        <img id="img3" class="imagen-destacada" src="./img/salud.png" alt="Imagen 3">
+        <img id="img4" class="imagen-destacada" src="./img/hotel.png" alt="Imagen 4">
+        <div class="arrow-right" onclick="changeContent(1)">&#9655;</div>
+    <div id="content1" class="content" style="display:block">
+        <br>
+        <div data-aos="fade-down">
+            <img class='img-fluid' src="./imagenesnovios/iglesia.jpeg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://goo.gl/maps/eCBYKHaj4u8QaJLNA">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="40">
+            </a>
+        </div>
+    </div>
+    <div id="content2" class="content">
+        <br>
+        <div data-aos="fade-down">
+            <img class='img-fluid' src="./imagenesnovios/horarios.jpg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://goo.gl/maps/fgkUzWNs2Xmmn8Qv8">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="40">
+            </a>
+        </div>
+    </div>
+    <div id="content3" class="content" data-aos="zoom-in">
+        <div data-aos="fade-up" class="map-ggl aos-init aos-animate">
+            <img class='img-fluid' src="./imagenesnovios/Jabega.jpeg" alt="">
+            <br>
+            <br><br>
+            Ver en Google Maps <br><br>
+            <a href="https://maps.app.goo.gl/AXL6Z7YcmFLYSVsY7?g_st=ic">
+                <img src="./img/localizacion.png" alt="Descripción de la imagen"
+                    width="40"></a>
+        </div>
+    </div>
+    <div id="content4" class="content">
+        <br><br>
+        <div data-aos="fade-down" class="block-w-title">
+            Tarifa especial<br> en los siguiente hoteles<br> con la Referencia "boda de Patricia y Jesús"<br>Por
+            telefono o correo <br>
+            <br><b>-Hotel Costasol<br>
+                -Hotel Nuevo Torreluz<br>
+                -Hotel Torreluz Centro </b> <br><br><br>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Linea separadora de contenido -->
+<div class="lineaSeparadora">
+    <div data-aos="fade-down" data-aos-duration="1000">
+      <img class="imageCapa" src="./img/line.png" alt="" style="width: 250px; height: auto;">
+    </div>
+  </div>
+  
+
+
   <!-- Animacion con scroll -->
    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
 
@@ -160,6 +235,9 @@
    <script> 
     AOS.init();
   </script>
+<!-- Como Llegar-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="./js/comollegar.js"></script>
 
 </body>
 </html>

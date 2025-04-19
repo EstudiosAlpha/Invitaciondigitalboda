@@ -229,3 +229,61 @@ border-top: 2px #000 solid;
   margin-top: -268px;
 }
   
+
+/* como llegar */
+.comoLlegar {
+    margin: 3rem auto;
+    max-width: 100%; /* Ajustar al ancho completo */
+  
+    text-align: center;
+    height: auto;
+}
+.comollegartitulo {
+  font-family: 'Houstiny', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.content {
+  display: none; /* o 'none' si se oculta inicialmente */
+  font-family: 'RobotoMonoThin', monospace;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+ 
+}
+img.imagen-destacada {
+  display: inline-block;
+  margin-right: 10px;
+  /* Agrega un margen entre las imágenes */
+  border: 1px solid grey;
+  /* Agrega un borde negro de 2 píxeles */
+  border-radius: 10px;
+  /* Agrega un borde redondeado */
+  width: 70px;
+  /* Ajusta el ancho de la imagen */
+  padding: 10px;
+  /* Ajusta el relleno para separar el borde negro de la imagen */
+}
+
+img.imagen-destacada.selected {
+  border-color: black;
+  /* Cambia el color del borde a gris */
+  filter: grayscale(100%);
+  border: 4px solid black;
+}
+
+.arrow-left,
+.arrow-right {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  top: -20px; /* Valor negativo las sube */
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+}
