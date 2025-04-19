@@ -244,6 +244,7 @@ border-top: 2px #000 solid;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  line-height: 2; /* Ajusta el valor según sea necesario */
 }
 .content {
   display: none; /* o 'none' si se oculta inicialmente */
